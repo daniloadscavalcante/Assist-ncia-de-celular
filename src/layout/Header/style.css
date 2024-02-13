@@ -1,0 +1,47 @@
+header{
+    background-color: #0D0C0C;
+    height: 90px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1260px;
+    width: 100%;
+    margin: auto;
+}
+.nav-wrapper{    
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-wrapper .menu{
+    display: flex;   
+    align-items: center;
+    padding: 0;
+}
+.nav-wrapper .menu li{
+    padding: 15px 10px;
+    list-style: none;
+}
+.nav-wrapper .menu li a{
+    color: #FFFBFB;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;   
+    white-space: nowrap;
+}
+.nav-wrapper a.btnOrcamentot{
+    background-color: #0097B2;
+    width: 237px;
+    max-width: 237px; 
+    height: 45px;
+    line-height: 43px;
+    text-align: center; 
+    display: block;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFFBFB;
+    margin-left: 40px;
+    font-weight: bold;
+}
