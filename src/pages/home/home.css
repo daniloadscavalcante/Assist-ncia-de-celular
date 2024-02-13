@@ -1,0 +1,35 @@
+.cards-servicos h2{
+    text-align: center;
+    margin: 30px 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: auto;
+    gap: 30px;
+}
+.card_item{
+    border: 1px solid #0097B2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+.cards .card_item .card_item-icone{
+    max-width: 90px;
+    width: 100%;
+    height: 90px;
+    border: 1px solid red;
+}
+.cards .card_item p{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif; 
+}

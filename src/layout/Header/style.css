@@ -1,6 +1,7 @@
-header{
+.bg-black{
     background-color: #0D0C0C;
     height: 90px;
+    border-bottom: 1px solid #cccaca;
 }
 .container{
     display: flex;
@@ -30,8 +31,10 @@ header{
     font-size: 16px;
     text-transform: uppercase;   
     white-space: nowrap;
+    display: block;
 }
-.nav-wrapper a.btnOrcamentot{
+
+.nav-wrapper .menu a.btnOrcamentot{
     background-color: #0097B2;
     width: 237px;
     max-width: 237px; 
