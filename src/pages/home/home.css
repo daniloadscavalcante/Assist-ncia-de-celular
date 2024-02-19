@@ -22,12 +22,50 @@
     border-radius: 20px;
     padding: 0 20px;
     text-align: center;
+    position: relative;  
+    overflow: hidden;    
+}
+
+.card_item:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;    
+    border-radius: 20px;
+    transition: all 0.5s linear;    
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.cardTela:after{
+    background: url('../../assets/Icones/cell-capa.webp') center center/100% no-repeat #fff;
+}
+.cardCamera:after{
+    background: url('../../assets/Icones/camera-capa.png') center center/100% no-repeat #fff;
+}
+.cardBateria:after{
+    background: url('../../assets/Icones/bateria-capa.png') center center/100% no-repeat #fff;
+}
+.cardPlaca:after{
+    background: url('../../assets/Icones/placa-capa.png') center center/100% no-repeat #fff;
+}
+.cardDesblo:after{
+    background: url('../../assets/Icones/desblo-capa.png') center center/100% no-repeat #fff;
+}
+.cardSoft:after{
+    background: url('../../assets/Icones/restaurar-capa.png') center center/100% no-repeat #fff;
+}
+.card_item:hover::after{
+    opacity: 1;
 }
 .cards .card_item .card_item-icone{
-    max-width: 90px;
+    max-width: 80px;
     width: 100%;
-    height: 90px;
-    border: 1px solid red;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 .cards .card_item p{
     font-weight: 500;
