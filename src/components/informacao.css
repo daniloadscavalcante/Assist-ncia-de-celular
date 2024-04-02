@@ -1,0 +1,36 @@
+.infoAss{
+    background-color: #000;
+    color: #FFFBFB;
+    min-height: 494px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infoAss .infoAss-blocoText{
+   max-width: 515px;
+   font-size: 18px;
+   text-align: left;
+   line-height: 1.5;
+}
+.infoAss .infoAss-blocoText h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.infoAss .infoAss-blocoText h2::before{
+   content: "";
+   display: block;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 60px;
+   height: 3px;
+   background-color: #0097B2;
+}
+.infoAss .infoAss-blocoText a{
+    margin: 30px 0;
+    font-size: 16px;    
+}
+.infoAss img{
+    border-radius: 20px;
+}

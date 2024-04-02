@@ -15,7 +15,7 @@ export default function Header() {
                     <li><Link to="/sobre">sobre nós</Link></li>
                     <li><Link to="/servico">serviços</Link></li>
                     <li><Link to="/contato">contato</Link></li>  
-                    <Link  className="btnOrcamentot" to="/#">Orçamento</Link>    
+                    <Link  className="btnOrcamento" to="/#">Orçamento</Link>    
                    </ul>
                 
                 </nav>                

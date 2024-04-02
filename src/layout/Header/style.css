@@ -34,17 +34,3 @@
     display: block;
 }
 
-.nav-wrapper .menu a.btnOrcamentot{
-    background-color: #0097B2;
-    width: 237px;
-    max-width: 237px; 
-    height: 45px;
-    line-height: 43px;
-    text-align: center; 
-    display: block;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #FFFBFB;
-    margin-left: 40px;
-    font-weight: bold;
-}
