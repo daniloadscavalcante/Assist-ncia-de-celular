@@ -1,0 +1,43 @@
+.slick-slider{
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+.slick-prev:before, .slick-next:before{
+    color: #000;
+}
+.slick-list{    
+    min-height: 260px;
+    margin: auto;
+    border: 1px solid red;
+}
+.blocoDepo{
+    border: 1px solid #0097B2;
+    width: 286px!important;
+    min-height: 220px;
+    margin: 0 30px;
+    border-radius: 10px;
+    padding: 41px 30px;
+    color: #000;
+}
+.blocoDepoUser{    
+    font-weight: 700;    
+}
+.blocoDepo .depoimento{    
+    font-weight: 400;
+    font-size: 13px; 
+    position: relative;  
+    margin-top: 20px;
+}
+.blocoDepo .depoimento::before{
+    content:'“';
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    font-size: 20px;
+}
+@media screen and (max-width:768px){
+    .slick-slider{       
+        width: 80%;       
+    }
+}

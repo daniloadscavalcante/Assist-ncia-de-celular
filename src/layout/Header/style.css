@@ -2,6 +2,7 @@
     background-color: #0D0C0C;
     height: 90px;
     border-bottom: 1px solid #cccaca;
+    position: relative;
 }
 .container{
     display: flex;
@@ -33,4 +34,38 @@
     white-space: nowrap;
     display: block;
 }
-
+.toggle{
+    display: block;    
+    margin: 0 30px;
+}
+.toggle span{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: aqua;
+    margin: 10px 0;
+}
+@media screen and (max-width: 768px){
+    .show{
+        display: block!important;
+    }
+    .nav-wrapper{
+        position: absolute;
+        top: 90px;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        background-color: black;
+        display: none;
+    }
+    .nav-wrapper .menu{
+        
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-wrapper .menu a.btnOrcamento {
+        margin: 0;
+    }
+}

@@ -1,4 +1,8 @@
 import '../home/home.css'
+import React from "react";
+
+
+
 import cell from '../../assets/Icones/cell.png'
 import camera from '../../assets/Icones/camera.png'
 import bateria from '../../assets/Icones/bateria.png'
@@ -15,11 +19,12 @@ import motorola from '../../assets/motorola.png'
 import samsung from '../../assets/samsung.png'
 import oneplus from '../../assets/oneplus.png'
 import SecaoIcones from '../../components/SecaoIcones'
+import Slider from '../../components/slider';
 
-import icone1 from '../../assets/Icones/atendimentoAgil.png'
 
 
 export default function contato(){
+ 
     return(
       <>
         <section className='cards-servicos'>
@@ -83,7 +88,9 @@ export default function contato(){
             </ul>
           </div>
         </section>
-        <SecaoIcones imgIcone={icone1} descricao={"Atendimento Ágil"}/>
+        <SecaoIcones/>
+      <Slider/>
+        
       </>
     )
 }
