@@ -5,7 +5,7 @@ import "../components/slider.css";
 export default function slider(){
     var settings = {
         arrows: true,
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -21,6 +21,8 @@ export default function slider(){
         ]      
     };
     return(
+      <section className="depoimentos">
+        <h2>Depoimentos</h2>
         <Slider {...settings}>
       <div className='blocoDepo'>
         <span className='blocoDepoUser'>danilo1</span>
@@ -43,5 +45,6 @@ export default function slider(){
         <p className='depoimento'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quo eveniet ullam ratione? Voluptate, nesciunt </p>
       </div>
     </Slider>
+    </section>
     )
 }

@@ -1,35 +1,42 @@
-.slick-slider{
-    max-width: 1024px;
+.depoimentos h2{
+    text-align: center;
+    margin: 80px 0;
+}
+.depoimentos .slick-slider{
+    max-width: 1000px;
     width: 100%;
     margin: auto;
 }
-.slick-prev:before, .slick-next:before{
+.depoimentos .slick-slide{
+    text-align: center;
+}
+.depoimentos .slick-prev:before, .slick-next:before{
     color: #000;
 }
-.slick-list{    
+.depoimentos .slick-list{    
     min-height: 260px;
     margin: auto;
-    border: 1px solid red;
 }
-.blocoDepo{
+.depoimentos .blocoDepo{
     border: 1px solid #0097B2;
     width: 286px!important;
     min-height: 220px;
-    margin: 0 30px;
+    margin: 0px;
     border-radius: 10px;
     padding: 41px 30px;
     color: #000;
+    text-align: left;
 }
-.blocoDepoUser{    
+.depoimentos .blocoDepoUser{    
     font-weight: 700;    
 }
-.blocoDepo .depoimento{    
+.depoimentos .blocoDepo .depoimento{    
     font-weight: 400;
     font-size: 13px; 
     position: relative;  
     margin-top: 20px;
 }
-.blocoDepo .depoimento::before{
+.depoimentos .blocoDepo .depoimento::before{
     content:'“';
     position: absolute;
     top: -10px;
@@ -37,7 +44,7 @@
     font-size: 20px;
 }
 @media screen and (max-width:768px){
-    .slick-slider{       
+    .depoimentos .slick-slider{       
         width: 80%;       
     }
 }

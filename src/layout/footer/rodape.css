@@ -3,18 +3,18 @@ footer{
     margin-top: 80px;
 }
 .conteudoRodape{
-    border: 1px solid red;
     max-width: 1200px;
     width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 80px;
+    column-gap: 80px;
+    padding-bottom: 35px;
 }
 .conteudoRodape div{
-    border: 1px solid #0000ff;
-    width: 250px;
+    width: 209px;
     font-size: 13px;
 }
 .conteudoRodape h3{
@@ -29,9 +29,12 @@ footer{
     line-height: 1.5;
 }
 .conteudoRodape .mapa{
-    width: 236px;
+    max-width: 236px;
     height: 114px;
     background-color: red;
+}
+.conteudoRodape .redesociais{
+    padding-left: 30px;
 }
 .conteudoRodape .redesociais span{
     font-size: 25px;

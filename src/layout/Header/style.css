@@ -34,8 +34,11 @@
     white-space: nowrap;
     display: block;
 }
+.show{
+    display: block!important;
+}
 .toggle{
-    display: block;    
+    display: none;    
     margin: 0 30px;
 }
 .toggle span{
@@ -45,9 +48,10 @@
     background-color: aqua;
     margin: 10px 0;
 }
-@media screen and (max-width: 768px){
-    .show{
-        display: block!important;
+@media screen and (max-width: 768px){   
+    .toggle{
+        display: block;    
+        margin: 0 30px;
     }
     .nav-wrapper{
         position: absolute;

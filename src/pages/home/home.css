@@ -1,6 +1,6 @@
 .cards-servicos h2{
     text-align: center;
-    margin: 30px 0;
+    margin: 60px 0;
 }
 .cards{
     display: flex;
@@ -9,6 +9,7 @@
     max-width: 980px;
     margin: auto;
     gap: 30px;
+    padding-bottom: 60px;
 }
 .card_item{
     border: 1px solid #0097B2;
@@ -84,4 +85,5 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    padding-bottom: 60px;
 }

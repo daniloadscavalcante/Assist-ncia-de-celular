@@ -34,3 +34,8 @@
 .infoAss img{
     border-radius: 20px;
 }
+@media screen and (max-width:768px){
+    .infoAss img{
+        display: none;
+    }
+}

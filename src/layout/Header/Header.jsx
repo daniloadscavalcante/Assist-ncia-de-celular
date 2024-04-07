@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import logo from '../../assets/logo.png';
 import '../Header/style.css';
-import banner from '../../assets/Banner-Assist.png';
+
 import { useState } from 'react';
 export default function Header() {
     const [menuVisible, setMenuVisible] = useState(false);
@@ -26,14 +26,10 @@ export default function Header() {
                     <li><Link to="/servico">serviços</Link></li>
                     <li><Link to="/contato">contato</Link></li>  
                     <Link  className="btnOrcamento" to="/#">Orçamento</Link>    
-                   </ul>
-                
+                   </ul>                
                 </nav>                
             </div> 
-            </div>
-            <div className='Banner'>
-                    <img src={banner} alt="" />
-                </div>
+            </div>            
         </header>
     )
 }

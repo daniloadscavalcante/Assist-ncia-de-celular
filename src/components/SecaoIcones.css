@@ -1,6 +1,6 @@
 .sectionIcones{
     background-color: #000;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 .sectionIcones h2{
     color: #fff;
@@ -15,7 +15,7 @@
     width: 100%;
     margin: auto;
     justify-content: center;
-    gap: 15px;
+    gap: 25px 15px;
 }
 .icones .iconeItem {
     width: 200px;

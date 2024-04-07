@@ -20,13 +20,16 @@ import samsung from '../../assets/samsung.png'
 import oneplus from '../../assets/oneplus.png'
 import SecaoIcones from '../../components/SecaoIcones'
 import Slider from '../../components/slider';
-
+import banner from '../../assets/Banner-Assist.png';
 
 
 export default function contato(){
  
     return(
       <>
+      <div className='Banner'>
+                <img src={banner} alt="" />
+            </div>
         <section className='cards-servicos'>
             <h2>Conhe nossos serviços</h2>
             <div className="cards">
