@@ -11,6 +11,7 @@ footer{
     justify-content: center;
     margin-top: 80px;
     column-gap: 80px;
+    row-gap: 40px;
     padding-bottom: 35px;
 }
 .conteudoRodape div{
@@ -48,4 +49,19 @@ footer .copy{
     font-size: 14px;
     text-align: center;
     background-color: #000;
+}
+@media screen and (max-width: 768px) {
+    .conteudoRodape div {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .conteudoRodape h3.logoRodape {
+        margin-bottom: 25px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .conteudoRodape .mapa {
+        margin: auto;        
+    }
 }

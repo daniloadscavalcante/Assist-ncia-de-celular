@@ -87,3 +87,12 @@
     justify-content: center;
     padding-bottom: 60px;
 }
+@media screen and (max-width: 768px) {
+    .cards-servicos h2{
+        font-size: 32px;
+    }
+    .card_item{
+        width: 250px;
+        height: 250px;
+    }
+}

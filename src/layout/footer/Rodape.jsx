@@ -4,7 +4,7 @@ export default function Rodape(){
         <footer>
             <div className="conteudoRodape">
             <div className="dias">
-                <h3>Cell<span>Fe</span></h3>
+                <h3 className='logoRodape'>Cell<span>Fe</span></h3>
                 <p><strong>Segunda a sexta-feira:</strong><br/> 09:00 as 17:30 hrs 
                     <br/><strong>Sábado:</strong><br/> 09:00 as 12:30 hrs</p>
             </div>

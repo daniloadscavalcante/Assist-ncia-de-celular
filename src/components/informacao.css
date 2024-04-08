@@ -35,7 +35,21 @@
     border-radius: 20px;
 }
 @media screen and (max-width:768px){
+    .infoAss{
+        padding: 0 20px;
+    }
+    .infoAss .infoAss-blocoText h2::before {
+        left: 50%;
+        transform: translateX(-50%);       
+    }
     .infoAss img{
         display: none;
+    }
+    .infoAss .infoAss-blocoText{
+        text-align: center;
+    }
+    .infoAss .infoAss-blocoText a {
+        margin: 30px auto;
+        font-size: 16px;
     }
 }
