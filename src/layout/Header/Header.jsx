@@ -8,18 +8,20 @@ export default function Header() {
     function showMenu() {
         setMenuVisible(!menuVisible);
     }
-
+    function closeMenu() {
+        setMenuVisible(false);
+    }
     return(
         <header>
         <div className='bg-black'>
            <div className="container">
                 <div className="logo"><img src={logo} alt="CellFe" /></div>
-                <div className='toggle' onClick={showMenu}>
+                <div className={`toggle ${menuVisible ? 'active' : ''}`} onClick={showMenu}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                <nav className={`nav-wrapper ${menuVisible ? 'show' : ''}`}>                    
+                <nav className={`nav-wrapper ${menuVisible ? 'show' : ''}`}onClick={closeMenu}>                    
                    <ul className="menu">
                     <li><Link to="/">home</Link></li>
                     <li><Link to="/sobre">sobre nós</Link></li>

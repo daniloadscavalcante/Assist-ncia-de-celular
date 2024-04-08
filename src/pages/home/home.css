@@ -87,10 +87,7 @@
     justify-content: center;
     padding-bottom: 60px;
 }
-@media screen and (max-width: 768px) {
-    .Banner{
-        margin-top: 90px;
-    }
+@media screen and (max-width: 768px) {    
     .cards-servicos h2{
         font-size: 32px;
     }
