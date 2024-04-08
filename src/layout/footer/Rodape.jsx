@@ -1,4 +1,5 @@
 import '../footer/rodape.css'
+import maps from '../../assets/maps.png'
 export default function Rodape(){
     return(
         <footer>
@@ -11,7 +12,7 @@ export default function Rodape(){
             <div className="endereco">
                 <h3>Endereço</h3>
                 <p>Av. Paulista 1499 Loja 14 Dentro da Galeria Andrea Matarazzo </p>
-                <div className='mapa'></div>
+                <div className='mapa'><img src={maps} alt="" /></div>
             </div>
             <div className="contato">
                 <h3>Contato</h3>
